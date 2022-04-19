@@ -35,7 +35,7 @@ dependencies:
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/zubairehman/flutter-boilerplate-project.git
+https://github.com/FiorellaCristinaOQ/Time4Uni.git
 ```
 
 Or you can just create a new Flutter project and replace the lib folder and the pubspec.yaml file with the ones that are located in this repo.
