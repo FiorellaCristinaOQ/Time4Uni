@@ -19,3 +19,34 @@ Our goal here is to get university students to finally realize that personal lif
 There are plenty of functionalities that we still want to implement. First, we want to improve our design, so the app can look more aesthetically pleasing and catch the attention of more potential users. Second, we want to add more functionality to the organization tools and make the health and community pages more interactive. For example, when the user wants to fill its schedule with tons of classes and hours of study time, the app should be able to politely suggest not to do that. Also, the extra pages that we want to implement are called evaluations, deadlines and habits, to keep track of important dates and to start building new positive habits to improve students' lifestyles. Third, we want to validate the advice given to the users by professionals in the field of mental health, to make sure that we are tackling the problem in the right way. Finally, our future plans for when the app is finished include working with universities to reach a wider range of users and go directly to where our users are and not wait until they find us by chance.
 
 ## Install and run our project
+## How to Use 
+
+**Step 1:**
+
+Download or clone this repo by using the link below:
+
+```
+https://github.com/zubairehman/flutter-boilerplate-project.git
+```
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies: 
+
+```
+flutter pub get 
+```
+
+**Step 3:**
+
+This project uses `inject` library that works with code generation, execute the following command to generate files:
+
+```
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
+
+or watch command in order to keep the source code synced automatically:
+
+```
+flutter packages pub run build_runner watch
+```
